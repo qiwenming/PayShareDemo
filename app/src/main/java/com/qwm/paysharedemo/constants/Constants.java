@@ -44,4 +44,8 @@ public class Constants {
      * 微信支付API密钥，在商户平台设置
      */
     public static final  String WX_PRIVATE_KEY="7133a00f9ba0613hu5928ke2j660i369";
+    /**
+     * 微信key
+     */
+    public static final  String WX__KEY="xx";
 }
