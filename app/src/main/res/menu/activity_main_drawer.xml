@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="支付宝">
+        <menu>
+            <item
+                android:id="@+id/item_alipay_scan"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="支付宝扫码支付" />
+            <item
+                android:id="@+id/item_alipay_pay"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="支付宝扫码支付" />
+            <item
+                android:id="@+id/item_alipay_app"
+                android:icon="@android:drawable/ic_menu_more"
+                android:title="支付宝APP支付" />
+        </menu>
+    </item>
+
+    <item android:title="微信">
+        <menu>
+            <item
+                android:id="@+id/item_wx_native"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="微信扫码支付" />
+            <item
+                android:id="@+id/item_wx_pay"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="微信刷卡支付" />
+            <item
+                android:id="@+id/item_wx_app"
+                android:icon="@android:drawable/ic_menu_more"
+                android:title="微信APP支付" />
+        </menu>
+    </item>
+
+
+</menu>
